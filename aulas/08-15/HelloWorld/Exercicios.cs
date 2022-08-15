@@ -184,7 +184,7 @@ namespace Exercicios
                     
                     int atual = lista[j];
                     int proximo = lista[j + 1];
-                    if (proximo < atual)
+                    if (proximo > atual)
                     {
                         lista[j] = atual;
                         lista[j + 1] = proximo;
